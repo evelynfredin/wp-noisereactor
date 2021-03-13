@@ -1,0 +1,7 @@
+.acf-block-preview.latest-albums a {
+  pointer-events: none;
+}
+
+.acf-block-preview svg {
+  width: 12px;
+}

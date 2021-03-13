@@ -1,0 +1,9 @@
+@import "./blocks/latest-albums.css";
+
+.block-editor-writing-flow {
+  font-family: var(--bs-font-sans-serif);
+}
+
+.wp-block {
+  max-width: 80%;
+}

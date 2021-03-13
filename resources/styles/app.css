@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./blocks/latest-albums.css";
+
+.menu {
+  @apply flex flex-col md:flex-row text-xl md:text-lg font-bold font-sans text-center md:text-left h-auto items-center;
+}
+
+.nav-link {
+  @apply px-28 py-5 md:py-2 md:px-4 md:hover:text-white md:hover:bg-blue-500 transition duration-500 ease-in-out;
+}
+
+.nav-item {
+  @apply md:w-auto py-5 md:py-0 border-b w-full h-full md:border-none hover:bg-gray-200 md:hover:bg-transparent;
+}
+
+.active {
+  @apply md:bg-blue-500 md:text-white;
+}
+
+.btn {
+  @apply text-white rounded-lg py-2 px-28 md:px-5 shadow-lg transition duration-500 ease-in-out;
+}
+
+.noteworthy {
+  @apply container h-auto md:items-center flex flex-col md:flex-row;
+}
+
+.noteworthy--btn {
+  @apply bg-gray-100 rounded-lg px-4 py-2 md:ml-5 mt-2 md:mt-0 text-center w-1/2 shadow-lg md:w-auto font-semibold uppercase hover:bg-gray-700 hover:text-gray-50 transition duration-500 ease-in-out;
+}
+
+.content {
+  @apply mx-auto max-w-7xl px-5 pt-5;
+}
+
+.input {
+  @apply w-full p-2 bg-gray-50 border rounded-xl mb-5 border-blue-500;
+}
+
+.heading--3 {
+  @apply uppercase font-bold text-blue-500 text-center text-xl mb-5;
+}
+
+.album {
+  @apply flex flex-col md:mt-8 p-4 rounded-lg transform lg:hover:scale-105 lg:hover:shadow-lg transition-all duration-700 ease-in-out;
+}
+
+.album-meta {
+  @apply uppercase text-sm;
+}
+
+.album-info {
+  @apply absolute flex flex-col justify-center h-auto items-baseline top-0 w-auto;
+}
+
+.album-tr {
+  -webkit-transform: translate(-100%, -100%) rotate(-90deg);
+  -ms-transform: translate(-100%, -100%) rotate(-90deg);
+  transform: translate(-100%, -100%) rotate(-90deg);
+  -webkit-transform-origin: right bottom;
+  -ms-transform-origin: right bottom;
+  transform-origin: right bottom;
+  left: 15%;
+}
+
+.cover {
+  width: 333.33%;
+  padding-left: 16%;
+}
+
+.cover img {
+  @apply h-full w-full object-cover;
+}
+
+.album-container {
+  @apply mt-5 lg:max-w-5xl flex flex-col items-center lg:items-end lg:flex-row mx-auto;
+}
+
+.album-cover img {
+  @apply rounded-lg shadow-lg;
+}
+
+.album-container--info {
+  @apply flex flex-col justify-end mx-auto w-full md:max-w-2xl lg:w-2/3 mt-10 lg:mt-0 lg:ml-7 bg-white px-10 lg:px-5 pt-10 pb-5 rounded-lg;
+}
+
+li.album-list {
+  @apply transition duration-500 ease-in-out flex h-auto items-center py-3 hover:text-blue-500 transform hover:translate-x-4;
+}
+
+.album-ulist > div:last-child {
+  border-bottom: 0;
+}
+
+.review {
+  @apply px-8 pb-5 bg-white rounded-lg;
+}
+
+.review h2 {
+  @apply text-2xl uppercase font-bold pt-5;
+}
+
+.review p {
+  @apply my-2 text-lg;
+}
+
+.album-h3 {
+  @apply uppercase font-bold text-lg pt-5 text-center mb-3;
+}
+
+.artist-img img {
+  @apply w-full h-full sm:h-52 object-cover;
+}
+
+.album-list img {
+  @apply w-6 h-6 rounded-full mr-2;
+}
+
+.has-large-font-size {
+  @apply text-center text-2xl uppercase font-bold;
+}
+
+.front-page {
+  @apply grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-4 max-w-screen-xl mx-auto;
+}
+
+.front-page article img {
+  @apply w-full h-32 sm:h-48 object-cover transition duration-500 transform hover:scale-105;
+}
+
+.badge {
+  @apply bg-blue-500 text-sm text-white font-bold rounded-full p-2 absolute top-0 m-2 mt-2;
+}
+
+.blog-list {
+  @apply md:w-4/5 mx-auto bg-white container mt-10 rounded-lg border relative;
+}
+
+.blog-list img {
+  @apply w-full h-72 object-cover;
+}
+
+.single-blog {
+  @apply w-full md:w-4/6 mx-auto border rounded-lg p-10 my-10 text-xl leading-relaxed;
+}
+
+.single-blog p {
+  @apply my-4;
+}
