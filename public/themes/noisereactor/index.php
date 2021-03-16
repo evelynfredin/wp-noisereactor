@@ -10,7 +10,7 @@
                     </div>
                     <div class="px-5 flex flex-col pb-10">
                         <?php the_excerpt(); ?>
-                        <p class="text-white inline mt-5"><a class="bg-blue-600 py-2 px-3 rounded-md hover:bg-blue-800 transition ease-out duration-500" href="<?php the_permalink(); ?>">Read more...</a></p>
+                        <p class="text-white inline mt-5"><a class="bg-blue-700 py-2 px-3 rounded-md hover:bg-blue-900 transition ease-out duration-500" href="<?php the_permalink(); ?>">Read more...</a></p>
                     </div>
                     <div class="badge">
                         <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
