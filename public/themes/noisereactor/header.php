@@ -4,7 +4,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <!-- Primary Meta Tags -->
     <meta name="description" content="This is me personal website where I share thoughts on the music I love, as well as pictures of my vinyl collection.">
 
